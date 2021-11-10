@@ -1,0 +1,39 @@
+[
+    {
+        "name":"One Plus Nord",
+        "price":29999,
+        "image":"https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/11/oneplus-nord-off-1605005344.jpg",
+        "description":"BEST DEVICE EVER TO USE",
+        "stock":10
+    },
+    {
+        "name":"DELL INSPIRON",
+        "price":49999,
+        "image":"https://i.dell.com/is/image/DellContent//content/dam/global-asset-library/Products/Notebooks/Inspiron/15_3501_non-touch/in3501nt_cnb_00055lf110_gr.psd?fmt=pjpg&pscan=auto&scl=1&wid=3640&hei=2262&qlt=100,0&resMode=sharp2&size=3640,2262",
+        "description":"BEST LAPTOP  EVER TO USE",
+        "stock":20
+    },
+
+    {
+        "name":"Gaming Pc",
+        "price":79999,
+        "image":"https://5.imimg.com/data5/RO/RA/JE/SELLER-3866941/gaming-desktop-pc-500x500.jpg",
+        "description":"BEST Gaming Pc EVER TO USE",
+        "stock":5
+    },
+    {
+        "name":"Smart TV",
+        "price":59999,
+        "image":"https://ae01.alicdn.com/kf/HTB16AvAOxnaK1RjSZFtq6zC2VXaa/Full-HD-28-32-40-42-inch-LED-wifi-TV-LED-Television-TV.jpg_Q90.jpg_.webp",
+        "description":"Smart Tv",
+        "stock":10
+    },
+    {
+        "name":"I Mac 27.7 Inches",
+        "price":69999,
+        "image":"https://techcrunch.com/wp-content/uploads/2017/12/apple_imac_pro_002.jpg",
+        "description":"Brand Explains Everything",
+        "stock":2
+    }
+
+]
