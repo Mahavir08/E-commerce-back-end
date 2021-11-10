@@ -11,9 +11,7 @@ const cookieParser = require('cookie-parser');
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cors({
-  origin: "https://martacart.herokuapp.com"
-}));
+app.use(cors());
 app.use(cookieParser());
 
 dotenv.config({ path: "config/config.env" });
