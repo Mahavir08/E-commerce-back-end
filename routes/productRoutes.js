@@ -4,7 +4,7 @@ const { getAllProducts, getSingleProduct, addProduct, deleteProduct, updateProdu
 const {isAuthenticatedUser, authorizeRoles} = require('../utils/isAuthenticated');
 
 router.route('/data').get( getAllProducts);
-router.route('/product/:id').get( isAuthenticatedUser, getSingleProduct);
+router.route('/product/:id').get(getSingleProduct);
 
 router.route('/add').post(addProduct);
 
