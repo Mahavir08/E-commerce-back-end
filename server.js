@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(cors({
   credentials: true,
-  origin: "*",
+  origin: "https://martacart.herokuapp.com",
 }));
 app.use(cookieParser());
 
