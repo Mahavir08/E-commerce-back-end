@@ -14,7 +14,9 @@ function tokenGenerator (user, statusCode , res){
 
     const authToken = jwt.sign(user_name,process.env.Secret_Key);
 
-    res.status(statusCode).cookie('token',authToken,options).json({
+    res.status(statusCode).cookie('token',authToken,options);    
+    
+    res.json({
         success:true,
         authToken,
         msg:'TRUE'
