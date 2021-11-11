@@ -14,6 +14,7 @@ app.use(express.json());
 app.use(cors({
   credentials: true,
   origin: "https://martacart.herokuapp.com",
+  allowedHeaders:['Content-Type','Authorization']
 }));
 app.use(cookieParser());
 
