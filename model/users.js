@@ -5,13 +5,13 @@ const userSchema = mongoose.Schema({
     first_name : {
         type:String,
         required:[true, 'Please Enter Your First Name'],
-        maxLength:[20 , 'First Name Cannot Exceed 20 Characters']
+        maxlength:[20 , 'First Name Cannot Exceed 20 Characters']
     },
 
     last_name : {
         type:String,
         required:[true, 'Please Enter Your Last Name'],
-        maxLength:[20 , 'Last Name Cannot Exceed 20 Characters']
+        maxlength:[20 , 'Last Name Cannot Exceed 20 Characters']
     },
 
     user_name : {
@@ -23,7 +23,7 @@ const userSchema = mongoose.Schema({
     password:{
         type:String,
         required:[true,'Please Enter Your Password'],
-        minLength:[8 , 'Password Must Have Atleast 8 Characters']
+        minlength:[8 , 'Password Must Have Atleast 8 Characters']
     },
 
     role:{
