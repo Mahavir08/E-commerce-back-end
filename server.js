@@ -22,7 +22,8 @@ app.use(cors(
 
 app.use(cookieParser());
 
-dotenv.config({ path: "config/config.env" });
+// dotenv.config({ path: "config/config.env" });
+dotenv.config({ path: ".env" });
 
 app.use('/api/',users);
 

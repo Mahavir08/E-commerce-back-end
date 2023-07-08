@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 
-dotenv.config({ path: "config/config.env" });
+dotenv.config({ path: ".env" });
 
 const DB = process.env.DB_ATLAS;
 

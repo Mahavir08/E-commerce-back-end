@@ -8,8 +8,8 @@ router.route('/product/:id').get(getSingleProduct);
 
 router.route('/add').post(addProduct);
 
-router.route('/delete/:id').delete( authorizeRoles('Admin'),deleteProduct);
+router.route('/delete/:id').delete(deleteProduct);
 
-router.route('/update/:id').put( authorizeRoles('Admin'), updateProduct);
+router.route('/update/:id').put(updateProduct);
 
 module.exports = router

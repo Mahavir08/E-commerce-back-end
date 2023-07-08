@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "seeder": "node seeder.js"
+    "seeder": "node seeder.js",
+    "dev":"nodemon server.js"
   },
   "author": "Mahavir Vaishnav",
   "license": "ISC",
